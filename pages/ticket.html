@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to- fit=no">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">  
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+
+    <title>Tp Integrador</title>
+</head>
+<body>  
+    <header class="container-xl">
+        <nav class="navbar navbar-expand-lg bg-color-nav">
+                              
+            <div class="container-fluid"> 
+                <div class="col-md-auto " style="width: 35%;"> 
+                    <img src="media/codoacodo.png" width="95px" alt=""> 
+                    <span class="text-white">Conf Bs As</span>
+                </div> 
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="..">La Conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-gray" href="..">Los oradores</a>
+                        </li>                  
+                        <li class="nav-item">
+                            <a class="nav-link text-gray" href="..">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-gray" href="..">Conviértete en orador</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link text-green" href="#">Comprar Tickets</a>
+                        </li>                                    
+                    </ul>                
+                </div> 
+            </div>               
+        </nav>                                    
+    </header>
+    <br>
+    <br>
+    <div class="container tres-elementos">
+        
+            <section class="seccion-01 tipoCursor" id="seleccionaTicket80">                
+                <br>
+                <h4>Estudiante</h4>
+                <p  >
+                    Tiene un Descuento <br><br>
+                    <b>80%</b> <br><br>
+                    *Presentar documentación
+                </p>                             
+            </section>
+            <section class="seccion-02 tipoCursor" id="seleccionaTicket50">
+                <br>
+                <h4>Trainee</h4>
+                <p>
+                    Tiene un Descuento <br><br>
+                    <b>50%</b> <br><br>
+                    *Presentar documentación
+                </p>                  
+            </section>
+            <section class="seccion-03 tipoCursor" id="seleccionaTicket15">
+                <br>
+                <h4>Junior</h4>
+                <p>
+                    Tiene un Descuento <br><br>
+                    <b>15%</b> <br><br>
+                    *Presentar documentación
+                </p>                                  
+            </section>
+            <section>
+                <h6 style="text-align: center;">VENTA</h6>
+                <h1 style="text-align: center;"><b>VALOR DE TICKET $200</b></h1>
+            </section>
+        
+    </div>      
+    <form action="" class="container tres-elementos">
+            <section class="form-01">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="tbNombre">                
+            </section>
+            <section class="form-01">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="tbApellido">                
+            </section>
+            <section class="form-02">
+                <input type="text" class="form-control" placeholder="Correo" aria-label="Correo" id="tbCorreo">                
+            </section>
+            <section class="form-03 seccion-label01">
+                <label for="">Cantidad</label>                
+            </section>
+            <section class="form-03 seccion-label01">
+                <label for="">Categoria</label>                
+            </section>  
+            <section class="form-01">
+                <input type="text" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="tbCantidad">                
+            </section>
+            <section class="form-01">
+                <select name="Categoria" class="form-select" id="">
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Junior">Junior</option>
+                </select>
+            </section>
+            <section class="form-02" style="text-align: left;color: blue;background-color:aqua;height: 30px;">               
+                <span class="label label-info" id="lbTotalCompra">Total a Pagar:$</span>    
+            </section>                        
+            <section class="form-01">
+                <button type="button" class="btn btn-success" style="background-color: #96c93e;border-color: #96c93e;width: 100%;" id="btnBorrar">Borrar</button>
+            </section>
+            <section class="form-01">
+                <button type="button" class="btn btn-success" style="background-color: #96c93e;border-color: #96c93e;width: 100%;" id="btnResumen">Resumen</button>
+            </section>    
+    </form>
+    
+         
+    <br><br> 
+    <footer class="container-xl">
+        <div class="" style="width: 100%; background-color: #1d4054;"> 
+            <nav class="nav nav-justified">
+                <a class="nav-link active text-white" href="#">Preguntas frecuentes</a>
+                <a class="nav-link text-white" href="#">Contáctanos</a>
+                <a class="nav-link text-white" href="#">Prensa</a>
+                <a class="nav-link text-white" href="#">Conferencia</a>
+                <a class="nav-link text-white" href="#">Términos y condiciones</a>
+                <a class="nav-link text-white" href="#">Privacidad</a>
+                <a class="nav-link text-white" href="#">Estudiantes</a>
+              </nav>                    
+        </div>
+    </footer>
+   
+    <div>
+        <span class="bordeRedondo" style="text-align: left;color: blue;background-color:aqua;height: 30px;">pepe argento</span>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="../js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>  
+    <script type="text/javascript" src="../js/dom.js"></script>
+</body>
+</html>
